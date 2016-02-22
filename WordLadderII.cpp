@@ -3,7 +3,7 @@
 *2.通过endWord进行BFS搜索
 **/
 class Solution {
-public:
+public: 
 	vector<vector<string>> findLadders(string beginWord, string endWord, unordered_set<string> &wordList) {
 		unordered_set<string> cur;                      //当前层节点
 		unordered_set<string> next;                     //下一层节点
